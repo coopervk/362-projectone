@@ -13,11 +13,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-  background-image: url(//basehold.it/i/24/ff0000);
+/*  background-image: url(//basehold.it/i/24/ff0000); */
   font-size: 1.5em; /* 24 / 16 */
   line-height: 1.25em; /* 30 / 24 */
-  background-color: #EEE;
+  background-color: #EAEAEA;
   color: #444;
+  padding-top: 3em;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 form {
@@ -34,9 +37,47 @@ h6 {
   color: #F55;
 }
 
-/* Layout Styles */
+main {
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+}
 
-/* Modular Styles */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
 
-/* State Styles */
+#navigation ul {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
 
+#navigation li {
+  line-height: 2em;
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  width: 100%;
+  background-color: #DDD;
+  padding-bottom: 0;
+}
+
+#navigation a {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+  left: 5%;
+  right: 5%;
+  text-align: left;
+}
