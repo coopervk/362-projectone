@@ -81,3 +81,17 @@ footer {
   right: 5%;
   text-align: left;
 }
+
+ul, ol {
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+
