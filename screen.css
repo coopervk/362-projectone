@@ -14,19 +14,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Base Styles */
 html {
 /*  background-image: url(//basehold.it/i/24/ff0000); */
-  font-size: 1.5em; /* 24 / 16 */
-  line-height: 1.25em; /* 30 / 24 */
+  font-size: 1em; /* 16 / 16 */
+  line-height: 1.25em; /* 20 / 16 */
   background-color: #EAEAEA;
   color: #444;
   padding-top: 3em;
   padding-left: 3%;
   padding-right: 3%;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', sans-serif;
 }
 
 form {
   font-size: 1em;
-  line-height: 2em;/* 48 / 24 */
+  line-height: 2em; /* 32 / 16 */
 }
 
 h1,
@@ -99,4 +99,21 @@ ol {
 h1 {
   text-align: center;
   color: #888;
+  font-size: 1.7em; /* Temporary */
+  line-height: 1.1em;
 }
+
+h2 {
+  font-size: 1.5em; /* Temporary */
+  line-height: 1.1em;
+}
+
+h3 {
+  font-size: 1.3em; /* Temporary */
+  line-height: 1.1em;
+}
+
+h4 {
+  font-size: 1.1em; /* Temporary */
+  line-height: 1.1em;
+1}
