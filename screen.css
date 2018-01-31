@@ -21,6 +21,7 @@ html {
   padding-top: 3em;
   padding-left: 3%;
   padding-right: 3%;
+  font-family: 'Roboto Slab', serif;
 }
 
 form {
@@ -35,6 +36,7 @@ h4,
 h5,
 h6 {
   color: #F55;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 main {
@@ -94,4 +96,7 @@ ol {
   list-style-type: decimal;
 }
 
-
+h1 {
+  text-align: center;
+  color: #888;
+}
