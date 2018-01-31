@@ -113,7 +113,7 @@ h3 {
   line-height: 1.1em;
 }
 
-h4 {
+h4, h5, h6 {
   font-size: 1.1em; /* Temporary */
   line-height: 1.1em;
 }
