@@ -15,12 +15,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
 /*  background-image: url(//basehold.it/i/24/ff0000); */
   font-size: 1em; /* 16 / 16 */
-  line-height: 1.25em; /* 20 / 16 */
+  line-height: 1.3em; /* 20 / 16 */
   background-color: #EAEAEA;
   color: #444;
   padding-top: 3em;
   padding-left: 3%;
   padding-right: 3%;
+  padding-bottom: 1em;
   font-family: 'Roboto Slab', sans-serif;
 }
 
@@ -78,7 +79,7 @@ header {
 footer {
   position: absolute;
   width: 90%;
-  bottom: 0;
+  bottom: 0.5em;
   left: 5%;
   right: 5%;
   text-align: left;
@@ -100,20 +101,20 @@ h1 {
   text-align: center;
   color: #888;
   font-size: 1.7em; /* Temporary */
-  line-height: 1.1em;
+  line-height: 1.4em;
 }
 
 h2 {
   font-size: 1.5em; /* Temporary */
-  line-height: 1.1em;
+  line-height: 1.4em;
 }
 
 h3 {
   font-size: 1.3em; /* Temporary */
-  line-height: 1.1em;
+  line-height: 1.4em;
 }
 
 h4, h5, h6 {
   font-size: 1.1em; /* Temporary */
-  line-height: 1.1em;
+  line-height: 1.4em;
 }
