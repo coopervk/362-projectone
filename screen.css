@@ -13,9 +13,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html {
-/*  background-image: url(//basehold.it/i/24/ff0000); */
+  background-image: url(//basehold.it/i/16/ff0000);
   font-size: 1em; /* 16 / 16 */
-  line-height: 1.3em; /* 20 / 16 */
+  line-height: 1.5em; /* 24 / 16 */
   background-color: #EAEAEA;
   color: #444;
   padding-top: 3em;
@@ -27,7 +27,7 @@ html {
 
 form {
   font-size: 1em;
-  line-height: 2em; /* 32 / 16 */
+  line-height: 2.5em; /* 40 / 16 */
 }
 
 h1,
@@ -87,6 +87,8 @@ footer {
 
 ul, ol {
   padding-left: 1.5em;
+  background-color: #00C;
+  opacity: 0.7;
 }
 
 ul {
@@ -100,21 +102,30 @@ ol {
 h1 {
   text-align: center;
   color: #888;
-  font-size: 1.7em; /* Temporary */
-  line-height: 1.4em;
+  font-size: 2em; /* 32 / 16 */
+  line-height: 1.5em; /* 48 / 32 */
+  background-color: #CCC;
+  opacity: 0.7;
 }
 
 h2 {
-  font-size: 1.5em; /* Temporary */
-  line-height: 1.4em;
+  font-size: 1.75em; /* 28 / 16 */
+  line-height: 1.42857em; /* 40 / 28 */
+  background-color: #C00;
+  opacity: 0.7;
 }
 
 h3 {
-  font-size: 1.3em; /* Temporary */
-  line-height: 1.4em;
+  font-size: 1.4375em; /* 23 / 16 */
+  line-height: 1.04348em; /* 24 / 23 */
 }
 
 h4, h5, h6 {
   font-size: 1.1em; /* Temporary */
   line-height: 1.4em;
+}
+
+p {
+  background-color: #0C0;
+  opacity: 0.7;
 }
