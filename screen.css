@@ -40,7 +40,7 @@ h6 {
 
 main {
   width: 100%;
-  max-width: 60%;
+  max-width: 90%;
   margin: 0 auto;
   padding-top: 3em;
   padding-bottom: 1.5em;
@@ -76,14 +76,14 @@ header {
   width: 100%;
 }
 
-footer {
+/*footer {
   position: absolute;
   width: 90%;
   bottom: 0.5em;
   left: 5%;
   right: 5%;
   text-align: left;
-}
+}*/
 
 section {
   padding-top: 1.5em; /* 24 / 16 */
