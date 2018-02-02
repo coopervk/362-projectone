@@ -17,8 +17,6 @@ html {
   line-height: 1.5em; /* 24 / 16 */
   background-color: #EAEAEA;
   color: #444;
-  padding-left: 3%;
-  padding-right: 3%;
   padding-bottom: 1em;
   font-family: 'Roboto Slab', sans-serif;
 }
@@ -49,6 +47,8 @@ main {
   margin: 0 auto;
   padding-top: 3em;
   padding-bottom: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 header {
@@ -134,4 +134,38 @@ h4, h5, h6 {
 
 .thanks_message {
   background-color: rgba(0, 255, 0, 0.15);  /* red with opacity */
+}
+
+@media screen and (min-width: 530px) {
+  main {
+    width: 100%;
+    max-width: 500px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: none;
+    background-color: blue;
+  }
+
+  article {
+    max-width: 80%;
+  }
+
+  section {
+    display: inline-block;
+  }
+
+  #form_section {
+    margin: auto 5% auto 5%;
+    width: auto;
+    background-color: #C00;
+  }
+
+  #sell_section {
+    margin: auto 5% auto 5%;
+    width: 500px;
+    background-color: #0C0;
+  }
 }
