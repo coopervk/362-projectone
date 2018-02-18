@@ -108,8 +108,24 @@ h4, h5, h6 {
 }
 
 input {
+  border: 0;
+  margin-bottom: 0.5em;
   background-color: #EAEAEA;
   color: #444;
+}
+
+label,
+input {
+  display: block;
+}
+
+#submit {
+  font-size: 1.1875em; /* 19 / 16 */
+  line-height: 1.26316em; /* 24 / 19 */
+  margin-top: 1em;
+  background-color: #07C;
+  color: #EAEAEA;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 ::placeholder {
@@ -120,16 +136,21 @@ input {
   background-color: rgba(255, 0, 0, 0.15);  /* red with opacity */
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 600px) {
   main {
-    width: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
     max-width: 70%;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   main {
-    max-width: 60%;
+    max-width: 62%;
     overflow: hidden;
   }
 
@@ -146,5 +167,11 @@ input {
 
   #sell-section {
     overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  main {
+    max-width: 52%;
   }
 }
