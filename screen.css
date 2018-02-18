@@ -104,7 +104,20 @@ h4, h5, h6 {
 }
 
 .thanks_message {
-  background-color: rgba(0, 255, 0, 0.15);  /* red with opacity */
+  background-color: rgba(0, 255, 0, 0.15);  /* green with opacity */
+}
+
+input {
+  background-color: #EAEAEA;
+  color: #444;
+}
+
+::placeholder {
+  color: #777;
+}
+
+.incorrect_input {
+  background-color: rgba(255, 0, 0, 0.15);  /* red with opacity */
 }
 
 @media screen and (min-width: 530px) {
