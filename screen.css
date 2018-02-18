@@ -18,7 +18,19 @@ html {
   background-color: #EAEAEA;
   color: #444;
   padding-bottom: 1em;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 form {
@@ -38,7 +50,7 @@ h4,
 h5,
 h6 {
   color: #07C;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 main {
@@ -65,18 +77,6 @@ section {
   padding-top: 1.5em; /* 24 / 16 */
 }
 
-ul, ol {
-  padding-left: 1.5em;
-}
-
-ul {
-  list-style-type: circle;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
 h1 {
   text-align: center;
   color: #888;
@@ -99,11 +99,11 @@ h4, h5, h6 {
   line-height: 1.26316em; /* 24 / 19 */
 }
 
-.error_message {
+.error-message {
   background-color: rgba(255, 0, 0, 0.15);  /* red with opacity */
 }
 
-.thanks_message {
+.thanks-message {
   background-color: rgba(0, 255, 0, 0.15);  /* green with opacity */
 }
 
@@ -116,7 +116,7 @@ input {
   color: #777;
 }
 
-.incorrect_input {
+.incorrect-input {
   background-color: rgba(255, 0, 0, 0.15);  /* red with opacity */
 }
 
@@ -124,7 +124,7 @@ input {
   main {
     width: 100%;
     max-width: 500px;
-  }  
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -139,13 +139,13 @@ input {
     height: 100;
   }
 
-  #form_section {
+  #form-section {
     margin-right: 5%;
     width: 300px;
     float: left;
   }
 
-  #sell_section {
+  #sell-section {
     overflow: hidden;
   }
 }
