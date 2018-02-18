@@ -22,19 +22,16 @@ $('#contact-form').on('submit',
     if(!email_results || email_results.length > 1) {
       $("#form_check_results").attr('class', 'error_message');
       $("#form_check_results").text("Uh oh! Your email appears incorrect! Try again.");
-      console.log("Bad email.");
     }
     // Yell at user if their username is invalid
     else if(!username_results || username_results.length > 1) {
       $("#form_check_results").attr('class', 'error_message');
       $("#form_check_results").text("Your username is invalid! No special characters.");
-      console.log("Bad username.");
     }
     // Yell at user if their password is invalid
     else if(!password_results || password_results.length > 1) {
       $("#form_check_results").attr('class', 'error_message');
       $("#form_check_results").text("You need to enter a password!");
-      console.log("Bad password.");
     }
     // Thank user for completing form
     else {
