@@ -52,36 +52,6 @@ main {
   background-color: #E0E0E0;
 }
 
-header {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-}
-
-#navigation ul {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-}
-
-#navigation li {
-  line-height: 2em;
-  list-style-type: none;
-  text-align: center;
-  float: left;
-  width: 100%;
-  background-color: #DDD;
-  padding-bottom: 0;
-}
-
-#navigation a {
-  text-align: center;
-  display: block;
-  width: 100%;
-}
-
 /*footer {
   position: absolute;
   width: 90%;
