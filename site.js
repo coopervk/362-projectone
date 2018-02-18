@@ -16,7 +16,7 @@ $('#contact-form').on('submit',
     e.preventDefault();
     // Create element to talk to user about form data if it does not exist
     if($("#form_check_results").length === 0) {
-      $("<h1 id='form_check_results' class=''>TEST</h1>").insertAfter($(this));
+      $("<p id='form_check_results' class=''>TEST</p>").insertAfter($(this));
     }
     // Reset each form element's class, removing markings on now possibly correct elements
     $('#email').attr('class', "");
