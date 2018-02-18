@@ -116,27 +116,23 @@ h4, h5, h6 {
 
 @media screen and (min-width: 1200px) {
   main {
-    max-width: none;
-    background-color: blue;
-  }
-
-  article {
-    max-width: 80%;
+    max-width: 1000px;
+    overflow: hidden;
   }
 
   section {
-    display: inline-block;
+    display: block;
+    max-width: 1000px;
+    height: 100;
   }
 
   #form_section {
-    margin: auto 5% auto 5%;
-    width: auto;
-    background-color: #C00;
+    margin-right: 5%;
+    max-width: 300px;
+    float: left;
   }
 
   #sell_section {
-    margin: auto 5% auto 5%;
-    width: 500px;
-    background-color: #0C0;
+    overflow: hidden;
   }
 }
