@@ -128,7 +128,7 @@ h4, h5, h6 {
 
   #form_section {
     margin-right: 5%;
-    max-width: 300px;
+    width: 300px;
     float: left;
   }
 
